@@ -70,6 +70,4 @@ mkDerivation {
     "man"
     "test"
   ];
-
-  meta.platforms = lib.platforms.unix;
 }

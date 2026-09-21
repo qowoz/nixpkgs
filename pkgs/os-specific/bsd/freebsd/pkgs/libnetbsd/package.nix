@@ -28,6 +28,4 @@ mkDerivation {
   ++ lib.optional (stdenv.hostPlatform == stdenv.buildPlatform) "INSTALL=boot-install";
 
   alwaysKeepStatic = true;
-
-  meta.platforms = lib.platforms.unix;
 }

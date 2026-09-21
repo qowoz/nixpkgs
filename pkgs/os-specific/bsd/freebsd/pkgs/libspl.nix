@@ -19,6 +19,5 @@ mkDerivation {
 
   meta = {
     license = lib.licenses.cddl;
-    platforms = lib.platforms.unix;
   };
 }

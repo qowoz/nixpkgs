@@ -1,9 +1,3 @@
-{
-  lib, mkDerivation,
-}:
+{ mkDerivation }:
 
-mkDerivation {
-  path = "usr.bin/gencat";
-
-  meta.platforms = lib.platforms.unix;
-}
+mkDerivation { path = "usr.bin/gencat"; }

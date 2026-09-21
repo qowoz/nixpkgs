@@ -65,6 +65,4 @@ mkDerivation {
   '';
 
   extraPaths = make.extraPaths;
-
-  meta.platforms = lib.platforms.unix;
 }

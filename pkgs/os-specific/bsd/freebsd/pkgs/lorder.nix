@@ -1,5 +1,4 @@
 {
-  lib,
   mkDerivation,
   bsdSetupHook,
   freebsdSetupHook,
@@ -23,6 +22,4 @@ mkDerivation {
     "out"
     "man"
   ];
-
-  meta.platforms = lib.platforms.unix;
 }

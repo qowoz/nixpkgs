@@ -114,7 +114,6 @@ lib.makeOverridable (
           artemist
         ];
         license = lib.licenses.bsd2;
-        platforms = lib.platforms.freebsd;
       }
       // attrs.meta or { };
     }

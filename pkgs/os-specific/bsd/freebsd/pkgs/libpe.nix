@@ -1,5 +1,4 @@
 {
-  lib,
   mkDerivation,
 }:
 mkDerivation {
@@ -14,6 +13,4 @@ mkDerivation {
   '';
 
   alwaysKeepStatic = true;
-
-  meta.platforms = lib.platforms.unix;
 }

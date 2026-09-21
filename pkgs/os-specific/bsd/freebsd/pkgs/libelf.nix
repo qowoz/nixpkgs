@@ -41,6 +41,4 @@ mkDerivation {
   preBuild = lib.optionalString stdenv.hostPlatform.isFreeBSD ''
     export NIX_CFLAGS_COMPILE="$NIX_CFLAGS_COMPILE -B${csu}/lib"
   '';
-
-  meta.platforms = lib.platforms.unix;
 }

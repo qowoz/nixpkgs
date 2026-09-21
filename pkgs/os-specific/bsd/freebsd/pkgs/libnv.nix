@@ -1,7 +1,4 @@
-{
-  lib,
-  mkDerivation,
-}:
+{ mkDerivation }:
 
 mkDerivation {
   path = "lib/libnv";
@@ -10,6 +7,4 @@ mkDerivation {
     "sys/sys"
   ];
   MK_TESTS = "no";
-
-  meta.platforms = lib.platforms.unix;
 }

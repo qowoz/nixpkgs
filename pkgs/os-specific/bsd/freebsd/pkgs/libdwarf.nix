@@ -1,5 +1,4 @@
 {
-  lib,
   mkDerivation,
   m4,
   compatIfNeeded,
@@ -22,6 +21,4 @@ mkDerivation {
     libelf
   ];
   MK_TESTS = "no";
-
-  meta.platforms = lib.platforms.unix;
 }

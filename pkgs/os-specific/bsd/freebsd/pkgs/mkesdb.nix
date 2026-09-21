@@ -1,5 +1,4 @@
 {
-  lib,
   mkDerivation,
   byacc,
   flex,
@@ -14,6 +13,4 @@ mkDerivation {
     byacc
     flex
   ];
-
-  meta.platforms = lib.platforms.unix;
 }
