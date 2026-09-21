@@ -1,6 +1,5 @@
 {
-  lib,
-  mkDerivation,
+  lib, mkDerivation,
 }:
 
 mkDerivation {
