@@ -13,4 +13,5 @@ mkDerivation {
     libsbuf
   ];
   MK_TESTS = "no";
+  meta.platforms = lib.platforms.freebsd;
 }

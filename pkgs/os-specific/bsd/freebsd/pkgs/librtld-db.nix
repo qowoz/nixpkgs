@@ -21,4 +21,5 @@ mkDerivation {
     libprocstat
   ];
 
+  meta.platforms = lib.platforms.freebsd;
 }

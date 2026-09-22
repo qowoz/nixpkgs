@@ -17,4 +17,5 @@ mkDerivation {
   ];
 
   meta.mainProgram = "usbconfig";
+  meta.platforms = lib.platforms.freebsd;
 }

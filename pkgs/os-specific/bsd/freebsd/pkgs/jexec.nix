@@ -9,4 +9,5 @@ mkDerivation {
     libjail
   ];
   meta.mainProgram = "jexec";
+  meta.platforms = lib.platforms.freebsd;
 }

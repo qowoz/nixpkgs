@@ -15,4 +15,5 @@ mkDerivation {
     "debug"
   ];
 
+  meta.platforms = lib.platforms.freebsd;
 }

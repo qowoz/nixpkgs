@@ -113,6 +113,7 @@ lib.makeOverridable (
           rhelmot
           artemist
         ];
+        platforms = lib.platforms.unix;
         license = lib.licenses.bsd2;
       }
       // attrs.meta or { };

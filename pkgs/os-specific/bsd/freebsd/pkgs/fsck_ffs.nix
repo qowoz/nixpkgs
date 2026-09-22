@@ -9,4 +9,5 @@ mkDerivation {
 
   buildInputs = [ libufs ];
 
+  meta.platforms = lib.platforms.freebsd;
 }

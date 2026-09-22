@@ -29,6 +29,7 @@ mkDerivation {
   meta = {
     description = "FreeBSD syslog daemon";
     maintainers = with lib.maintainers; [ artemist ];
+    platforms = lib.platforms.freebsd;
     license = lib.licenses.bsd2;
   };
 }

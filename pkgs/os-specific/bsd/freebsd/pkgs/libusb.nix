@@ -15,4 +15,5 @@ mkDerivation {
     mv $out/data/pkgconfig $out/lib/pkgconfig
   '';
 
+  meta.platforms = lib.platforms.freebsd;
 }

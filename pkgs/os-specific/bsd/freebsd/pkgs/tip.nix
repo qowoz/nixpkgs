@@ -14,5 +14,6 @@ mkDerivation {
     "debug"
   ];
 
+  meta.platforms = lib.platforms.freebsd;
   meta.mainProgram = "tip";
 }

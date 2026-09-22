@@ -24,4 +24,5 @@ mkDerivation {
   MK_TESTS = "no";
 
   meta.mainProgram = "growfs";
+  meta.platforms = lib.platforms.freebsd;
 }

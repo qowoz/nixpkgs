@@ -33,6 +33,7 @@ mkDerivation {
 
   meta = {
     mainProgram = "zfsd";
+    platforms = lib.platforms.freebsd;
     license = with lib.licenses; [
       cddl
       bsd2

@@ -32,4 +32,5 @@ mkDerivation {
   ];
   buildInputs = [ include ];
   MK_TESTS = "no";
+  meta.platforms = lib.platforms.freebsd;
 }

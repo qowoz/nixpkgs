@@ -11,4 +11,5 @@ mkDerivation {
     libxo
   ];
 
+  meta.platforms = lib.platforms.freebsd;
 }

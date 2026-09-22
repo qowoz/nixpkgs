@@ -20,5 +20,6 @@ mkDerivation {
     sed -E -i -e '/BINOWN|BINMODE|PRECIOUSPROG/d' $BSDSRCDIR/usr.bin/passwd/Makefile
   '';
 
+  meta.platforms = lib.platforms.freebsd;
   meta.mainProgram = "passwd";
 }
